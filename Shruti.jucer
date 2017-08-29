@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="aHCigF" name="Shruti" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.pocketscience.Shruti" includeBinaryInAppConfig="1"
+              jucerVersion="4.3.1">
+  <MAINGROUP id="DlWUcb" name="Shruti">
+    <GROUP id="{4D438439-E33F-A19A-07AA-3C1202ED88FF}" name="Source">
+      <GROUP id="{39888820-D609-9B39-5CDE-EFEE3E16FF48}" name="Resources">
+        <FILE id="bcNVg2" name="addTrack.png" compile="0" resource="1" file="Resources/addTrack.png"
+              xcodeResource="0"/>
+        <FILE id="eLj1nk" name="delete.png" compile="0" resource="1" file="Resources/delete.png"/>
+        <FILE id="uNHbrU" name="pause.png" compile="0" resource="1" file="Resources/pause.png"
+              xcodeResource="0"/>
+        <FILE id="oNlmIt" name="play.png" compile="0" resource="1" file="Resources/play.png"
+              xcodeResource="0"/>
+      </GROUP>
+      <GROUP id="{F31E92FC-42A6-7278-024C-E53DFCF28BB3}" name="Gui">
+        <FILE id="f7TJeY" name="Constants.h" compile="0" resource="0" file="Source/Gui/Constants.h"/>
+        <FILE id="iSyoTM" name="ShrutiToolbarItemFactory.cpp" compile="1" resource="0"
+              file="Source/Gui/ShrutiToolbarItemFactory.cpp"/>
+        <FILE id="yGYDIS" name="ShrutiToolbarItemFactory.h" compile="0" resource="0"
+              file="Source/Gui/ShrutiToolbarItemFactory.h"/>
+        <FILE id="SlDyve" name="TimeDisplayComponent.cpp" compile="1" resource="0"
+              file="Source/Gui/TimeDisplayComponent.cpp"/>
+        <FILE id="mUyf23" name="TimeDisplayComponent.h" compile="0" resource="0"
+              file="Source/Gui/TimeDisplayComponent.h"/>
+        <FILE id="rK5qhc" name="TimelineComponent.cpp" compile="1" resource="0"
+              file="Source/Gui/TimelineComponent.cpp"/>
+        <FILE id="NHjYth" name="TimelineComponent.h" compile="0" resource="0"
+              file="Source/Gui/TimelineComponent.h"/>
+        <FILE id="UPY8LS" name="TrackComponent.cpp" compile="1" resource="0"
+              file="Source/Gui/TrackComponent.cpp"/>
+        <FILE id="SpgfJp" name="TrackComponent.h" compile="0" resource="0"
+              file="Source/Gui/TrackComponent.h"/>
+        <FILE id="vO9uoL" name="TrackHolderComponent.cpp" compile="1" resource="0"
+              file="Source/Gui/TrackHolderComponent.cpp"/>
+        <FILE id="ddAbJO" name="TrackHolderComponent.h" compile="0" resource="0"
+              file="Source/Gui/TrackHolderComponent.h"/>
+        <FILE id="Y76UzO" name="TrackWaveformComponent.cpp" compile="1" resource="0"
+              file="Source/Gui/TrackWaveformComponent.cpp"/>
+        <FILE id="WYBE4r" name="TrackWaveformComponent.h" compile="0" resource="0"
+              file="Source/Gui/TrackWaveformComponent.h"/>
+        <FILE id="aj3EOt" name="TrackWidgetsComponent.cpp" compile="1" resource="0"
+              file="Source/Gui/TrackWidgetsComponent.cpp"/>
+        <FILE id="LcElnn" name="TrackWidgetsComponent.h" compile="0" resource="0"
+              file="Source/Gui/TrackWidgetsComponent.h"/>
+      </GROUP>
+      <GROUP id="{EB3D81FE-F9AA-A197-567F-3B6818ACDEB6}" name="AudioBlender">
+        <FILE id="rN1pKL" name="AudioBlender.cpp" compile="1" resource="0"
+              file="Source/AudioBlender/AudioBlender.cpp"/>
+        <FILE id="jrMZGG" name="AudioBlender.h" compile="0" resource="0" file="Source/AudioBlender/AudioBlender.h"/>
+        <FILE id="juwIdf" name="TrackAudioSource.cpp" compile="1" resource="0"
+              file="Source/AudioBlender/TrackAudioSource.cpp"/>
+        <FILE id="cm2Dgb" name="TrackAudioSource.h" compile="0" resource="0"
+              file="Source/AudioBlender/TrackAudioSource.h"/>
+      </GROUP>
+      <FILE id="WvCHOa" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="lInCyN" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="zqnQeq" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="wZP0j5" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="tjJj4m" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Shruti"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="Shruti"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdPartyLibraries/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Shruti"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="Shruti"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdPartyLibraries/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Shruti"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="Shruti"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdPartyLibraries/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="Shruti"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="Shruti"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../ThirdPartyLibraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdPartyLibraries/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
